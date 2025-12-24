@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DS Impressões 3D</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+    header {
+      background: #ffd400;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.2em;
+      font-weight: bold;
+    }
+    header p {
+      margin: 5px 0 0;
+      font-size: 1.1em;
+    }
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .produto {
+      background: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 15px;
+      text-align: center;
+    }
+    .produto img {
+      width: 100%;
+      max-height: 200px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    .produto h3 {
+      margin: 10px 0 5px;
+    }
+    .produto p {
+      font-size: 0.95em;
+    }
+    .preco {
+      font-size: 1.2em;
+      font-weight: bold;
+      margin: 10px 0;
+    }
+    .btn {
+      display: inline-block;
+      padding: 10px 15px;
+      background: #ffd400;
+      color: #000;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+    }
+    .btn:hover {
+      background: #e6be00;
+    }
+    footer {
+      background: #222;
+      color: #fff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>DS Impressões 3D</h1>
+    <p>Brinquedos e miniaturas feitos na nossa impressora 3D</p>
+  </header>
+
+  <main class="container">
+    <section class="produtos">
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200" alt="Dragão 3D">
+        <h3>Bonecos Articulado</h3>
+        <p>Miniatura impressa em 3D, articulada e detalhada.</p>
+        <div class="preco">R$ 79,90</div>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200" alt="Figure 3D">
+        <h3>Figure Colecionável</h3>
+        <p>Ideal para fãs e colecionadores.</p>
+        <div class="preco">R$ 59,90</div>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+      <div class="produto">
+        <img src="https://via.placeholder.com/300x200" alt="Decoração 3D">
+        <h3>Peça Decorativa</h3>
+        <p>Perfeita para mesas e estantes.</p>
+        <div class="preco">R$ 39,90</div>
+        <a href="#" class="btn">Comprar</a>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 - DS Impressões 3D</p>
+  </footer>
+
+</body>
+</html>
